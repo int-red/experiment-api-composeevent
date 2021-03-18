@@ -1,0 +1,19 @@
+﻿[
+  {
+    "namespace": "composeevent",
+    "events": [
+      {
+        "name": "onAfterSend",
+        "type": "function",
+        "description": "Fires when sending a new email is done.",
+        "parameters": [
+          {
+            "name": "messageId",
+            "type": "integer",
+            "description": "The ID of the sent email. -1 when sending the email failed."
+          }
+        ]
+      }
+    ]
+  }
+]

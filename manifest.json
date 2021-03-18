@@ -1,0 +1,15 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Extension containing an experimental API",
+  "experiment_apis": {
+    "composeevent": {
+      "schema": "api/composeevent/schema.json",
+      "parent": {
+        "scopes": [ "addon_parent" ],
+        "paths": [ [ "composeevent" ] ],
+        "script": "api/composeevent/implementation.js"
+      }
+    },
+  },
+
+}
